@@ -1,4 +1,16 @@
 def selection_sort(arr):
+    """
+    A simple implementation of selection sort for numeric collections.
+
+    Time complexity:
+        O(n^2)
+
+    Args:
+        arr: A collection of numeric elements.
+
+    Returns:
+        A sorted collection of numeric elements.
+    """
 
     def find_minimum(xs):
         idx = 0
