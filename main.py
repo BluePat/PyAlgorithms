@@ -12,3 +12,8 @@ if __name__ == '__main__':
     lst = [50, 30, 30, 40, 123, 12, 34, 56, 55, 55, 2, 888, 14, 15, 1, 0]
     result = sort.selection_sort(lst)
     print(result)
+
+    # Simple numeric QUICKSORT
+    lst = [50, 30, 30, 40, 123, 12, 34, 56, 55, 55, 2, 888, 14, 15, 1, 0]
+    result = sort.quicksort(lst)
+    print(result)
